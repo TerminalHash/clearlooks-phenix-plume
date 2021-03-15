@@ -1,6 +1,4 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Created with Inkscape (http://www.inkscape.org/) -->
-
 <svg
    xmlns:dc="http://purl.org/dc/elements/1.1/"
    xmlns:cc="http://creativecommons.org/ns#"
@@ -13,8 +11,8 @@
    height="16px"
    id="svg33222"
    version="1.1"
-   inkscape:version="0.48.3.1 r9886"
-   sodipodi:docname="border-focused-2.svg">
+   inkscape:version="1.0.2 (e86c870879, 2021-01-15)"
+   sodipodi:docname="border-focused-ptb.svg">
   <defs
      id="defs33224">
     <linearGradient
@@ -36,22 +34,23 @@
      borderopacity="1.0"
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
-     inkscape:zoom="44.5625"
-     inkscape:cx="8"
-     inkscape:cy="8"
+     inkscape:zoom="14.576781"
+     inkscape:cx="13.862826"
+     inkscape:cy="13.487695"
      inkscape:current-layer="layer1"
      showgrid="false"
      inkscape:grid-bbox="true"
      inkscape:document-units="px"
-     inkscape:window-width="1280"
-     inkscape:window-height="949"
-     inkscape:window-x="0"
-     inkscape:window-y="0"
+     inkscape:window-width="1024"
+     inkscape:window-height="556"
+     inkscape:window-x="-3"
+     inkscape:window-y="-3"
      inkscape:window-maximized="1"
      inkscape:snap-nodes="false"
      inkscape:snap-bbox="true"
      inkscape:showpageshadow="false"
-     showborder="false">
+     showborder="false"
+     inkscape:document-rotation="0">
     <inkscape:grid
        type="xygrid"
        id="grid2992"
@@ -84,7 +83,7 @@
        height="13.999999"
        width="15"
        id="rect17861"
-       style="color:#000000;fill:none;stroke:#869bb7;stroke-width:1;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+       style="color:#000000;fill:none;stroke:#75507b;stroke-width:1;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
     <rect
        ry="1.5"
        rx="1.5"

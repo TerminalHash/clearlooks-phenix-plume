@@ -53,12 +53,12 @@ menu.items.disabled.text.color: #aaaaaa
 
 menu.items.active.bg: Flat Gradient splitvertical border
 
-menu.items.active.bg.color: #97b8e2
-menu.items.active.bg.color.splitTo: #a8c5e9
+menu.items.active.bg.color: #ad7fa8
+menu.items.active.bg.color.splitTo: #75507b
 
-menu.items.active.bg.colorTo: #91b3de
-menu.items.active.bg.colorTo.splitTo: #80a7d6
-menu.items.active.bg.border.color: #4b6e99
+menu.items.active.bg.colorTo: #ad7fa8
+menu.items.active.bg.colorTo.splitTo: #75507b
+menu.items.active.bg.border.color: #5c3566
 menu.items.active.text.color: #ffffff
 
 menu.separator.width: 1
@@ -81,35 +81,35 @@ window.*.border.color: #585a5d
 window.active.title.separator.color: #4e76a8
 
 *.title.bg: Raised Gradient splitvertical
-*.title.bg.color: #8CB0DC
-*.title.bg.color.splitTo: #99BAE3
-*.title.bg.colorTo: #86ABD9
-*.title.bg.colorTo.splitTo: #7AA1D1
+*.title.bg.color: #75507b
+*.title.bg.color.splitTo: #ad7fa8
+*.title.bg.colorTo: #ad7fa8
+*.title.bg.colorTo.splitTo: #5c3566
 
 window.active.label.bg: Parentrelative
 window.active.label.text.color: #ffffff
 
 window.active.button.*.bg: Flat Gradient splitvertical Border
 
-window.active.button.*.bg.color: #92B4DF
-window.active.button.*.bg.color.splitTo: #B0CAEB
-window.active.button.*.bg.colorTo: #86ABD9
-window.active.button.*.bg.colorTo.splitTo: #769FD0
+window.active.button.*.bg.color: #75507b
+window.active.button.*.bg.color.splitTo: #ad7fa8
+window.active.button.*.bg.colorTo: #75507b
+window.active.button.*.bg.colorTo.splitTo: #ad7fa8
 
-window.active.button.*.bg.border.color: #49678B
+window.active.button.*.bg.border.color: #5c3566
 window.active.button.*.image.color: #F4F5F6
 
-window.active.button.hover.bg.color: #b5d3ef
-window.active.button.hover.bg.color.splitTo: #b5d3ef
-window.active.button.hover.bg.colorTo: #9cbae7
-window.active.button.hover.bg.colorTo.splitTo: #8caede
-window.active.button.hover.bg.border.color: #4A658C
+window.active.button.hover.bg.color: #ad7fa8
+window.active.button.hover.bg.color.splitTo: #ad7fa8
+window.active.button.hover.bg.colorTo: #75507b
+window.active.button.hover.bg.colorTo.splitTo: #75507b
+window.active.button.hover.bg.border.color: #5c3566
 window.active.button.hover.image.color: #ffffff
 
 window.active.button.pressed.bg: Flat solid Border
 window.active.button.pressed.bg.color: #7aa1d2
 
-window.active.button.hover.bg.border.color: #4A658C
+window.active.button.hover.bg.border.color: #5c3566
 
 !# inactive
 

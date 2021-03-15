@@ -1,6 +1,4 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Created with Inkscape (http://www.inkscape.org/) -->
-
 <svg
    xmlns:dc="http://purl.org/dc/elements/1.1/"
    xmlns:cc="http://creativecommons.org/ns#"
@@ -14,7 +12,7 @@
    height="21"
    id="svg2"
    version="1.1"
-   inkscape:version="0.48.4 r9939"
+   inkscape:version="1.0.2 (e86c870879, 2021-01-15)"
    sodipodi:docname="scale-slider-vert-hover.svg"
    inkscape:export-filename="/usr/share/themes/Clearlooks-Phenix-HiDPI/gtk-3.0/img/scale-slider-vert-hover@2.png"
    inkscape:export-xdpi="180"
@@ -94,21 +92,22 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="55.619048"
-     inkscape:cx="6.464041"
+     inkscape:cx="3.4434931"
      inkscape:cy="10.499983"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="true"
      inkscape:snap-bbox="true"
-     inkscape:window-width="1918"
-     inkscape:window-height="1983"
-     inkscape:window-x="1920"
-     inkscape:window-y="144"
+     inkscape:window-width="1024"
+     inkscape:window-height="556"
+     inkscape:window-x="-3"
+     inkscape:window-y="-3"
      inkscape:window-maximized="0"
      fit-margin-top="0"
      fit-margin-left="0"
      fit-margin-right="0"
-     fit-margin-bottom="0">
+     fit-margin-bottom="0"
+     inkscape:document-rotation="0">
     <inkscape:grid
        type="xygrid"
        id="grid2985"
@@ -116,10 +115,10 @@
        visible="true"
        enabled="true"
        snapvisiblegridlinesonly="true"
-       spacingx="0.5px"
-       spacingy="0.5px"
-       originx="-4px"
-       originy="3.9999826px" />
+       spacingx="0.5"
+       spacingy="0.5"
+       originx="-4"
+       originy="3.9999826" />
   </sodipodi:namedview>
   <metadata
      id="metadata7">
@@ -129,7 +128,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -140,7 +139,7 @@
      transform="translate(-4,-1035.3622)">
     <rect
        rx="2.5"
-       style="fill:url(#linearGradient5261);fill-opacity:1;stroke:#4b6e99;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       style="fill:url(#linearGradient5261);fill-opacity:1;stroke:#75507b;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
        id="rect3755"
        width="20"
        height="12"

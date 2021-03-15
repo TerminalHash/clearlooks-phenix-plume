@@ -1,6 +1,4 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Created with Inkscape (http://www.inkscape.org/) -->
-
 <svg
    xmlns:dc="http://purl.org/dc/elements/1.1/"
    xmlns:cc="http://creativecommons.org/ns#"
@@ -14,7 +12,7 @@
    height="16"
    id="svg2"
    version="1.1"
-   inkscape:version="0.48.4 r9939"
+   inkscape:version="1.0.2 (e86c870879, 2021-01-15)"
    sodipodi:docname="checkbox-mixed-hover.svg"
    inkscape:export-filename="/usr/share/themes/Clearlooks-Phenix-HiDPI/gtk-3.0/img/checkbox-mixed-hover@2.png"
    inkscape:export-xdpi="180"
@@ -67,18 +65,19 @@
      borderopacity="1.0"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:zoom="72.75"
-     inkscape:cx="7.3402062"
-     inkscape:cy="7.5051546"
+     inkscape:zoom="18.1875"
+     inkscape:cx="5.6062223"
+     inkscape:cy="9.1939401"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="true"
-     inkscape:window-width="1918"
-     inkscape:window-height="1983"
-     inkscape:window-x="1920"
-     inkscape:window-y="144"
+     inkscape:window-width="1024"
+     inkscape:window-height="556"
+     inkscape:window-x="-3"
+     inkscape:window-y="-3"
      inkscape:window-maximized="0"
-     inkscape:snap-bbox="true">
+     inkscape:snap-bbox="true"
+     inkscape:document-rotation="0">
     <inkscape:grid
        type="xygrid"
        id="grid2985"
@@ -86,8 +85,10 @@
        visible="true"
        enabled="true"
        snapvisiblegridlinesonly="true"
-       spacingx="0.5px"
-       spacingy="0.5px" />
+       spacingx="0.5"
+       spacingy="0.5"
+       originx="0"
+       originy="0" />
   </sodipodi:namedview>
   <metadata
      id="metadata7">
@@ -97,7 +98,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -107,7 +108,7 @@
      id="layer1"
      transform="translate(0,-1036.3622)">
     <rect
-       style="fill:#c9daef;fill-opacity:1;stroke:#4b6e99;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="fill:#ad7fa8;fill-opacity:1;stroke:#75507b;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        id="rect2987"
        width="11"
        height="11"
@@ -116,8 +117,8 @@
        rx="1"
        ry="1" />
     <path
-       style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
-       d="M 3,8 13,8"
+       style="fill:none;stroke:#5c3566;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 3,8 H 13"
        id="path3939"
        inkscape:connector-curvature="0"
        transform="translate(0,1036.3622)" />
@@ -125,11 +126,11 @@
        transform="translate(0,-0.0128)"
        sodipodi:type="inkscape:offset"
        inkscape:radius="1"
-       inkscape:original="M 3.5 1038.875 C 2.946 1038.875 2.5 1039.321 2.5 1039.875 L 2.5 1048.875 C 2.5 1049.429 2.946 1049.875 3.5 1049.875 L 12.5 1049.875 C 13.054 1049.875 13.5 1049.429 13.5 1048.875 L 13.5 1039.875 C 13.5 1039.321 13.054 1038.875 12.5 1038.875 L 3.5 1038.875 z "
+       inkscape:original="M 3.5 1038.8633 C 2.946 1038.8633 2.5 1039.3093 2.5 1039.8633 L 2.5 1048.8633 C 2.5 1049.4173 2.946 1049.8633 3.5 1049.8633 L 12.5 1049.8633 C 13.054 1049.8633 13.5 1049.4173 13.5 1048.8633 L 13.5 1039.8633 C 13.5 1039.3093 13.054 1038.8633 12.5 1038.8633 L 3.5 1038.8633 z "
        xlink:href="#rect2987"
        style="fill:none;stroke:url(#linearGradient3849);stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        id="path3042"
        inkscape:href="#rect2987"
-       d="m 3.5,1037.875 c -1.0907028,0 -2,0.9093 -2,2 l 0,9 c 0,1.0907 0.9092972,2 2,2 l 9,0 c 1.090703,0 2,-0.9093 2,-2 l 0,-9 c 0,-1.0907 -0.909297,-2 -2,-2 l -9,0 z" />
+       d="m 3.5,1037.8633 c -1.0907028,0 -2,0.9093 -2,2 v 9 c 0,1.0907 0.9092972,2 2,2 h 9 c 1.090703,0 2,-0.9093 2,-2 v -9 c 0,-1.0907 -0.909297,-2 -2,-2 z" />
   </g>
 </svg>

@@ -1,0 +1,27 @@
+[Color Scheme]
+Name=TDE Plume
+activeBackground=173,127,168
+activeBlend=117,80,123
+activeForeground=255,255,255
+activeTitleBtnBg=220,220,220
+alternateBackground=237,244,249
+background=239,239,239
+buttonBackground=221,223,228
+buttonForeground=0,0,0
+contrast=7
+foreground=0,0,0
+frame=239,239,239
+handle=239,239,239
+inactiveBackground=92,53,102
+inactiveBlend=92,53,102
+inactiveForeground=221,221,221
+inactiveFrame=239,239,239
+inactiveHandle=239,239,239
+inactiveTitleBtnBg=220,220,220
+linkColor=173,127,168
+selectBackground=117,80,123
+selectForeground=255,255,255
+shadeSortColumn=true
+visitedLinkColor=117,80,123
+windowBackground=255,255,255
+windowForeground=0,0,0

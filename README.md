@@ -2,66 +2,106 @@
 
 The Clearlooks-Phénix project aims at creating a GTK3 port of Clearlooks, the default theme for Gnome 2. Style is also included for GTK2, Unity and for Metacity, Openbox and Xfwm4 window managers.
 
-Here are screenshots (if applicable, click to see the original image):
+This repo contains modified version of original port with purple colors (named Plume) from Tango Desktop Project, tweaked by me (TerminalHash). All copyrights to original authors.
 
-<a href="https://raw.githubusercontent.com/jpfleury/clearlooks-phenix/master/doc/exemple1.png"><img src="https://raw.githubusercontent.com/jpfleury/clearlooks-phenix/master/doc/exemple1.png" alt="Screenshot of a Gnome 3 desktop (fallback mode) with the Clearlooks-Phénix theme" width="658" height="493" /></a>
+### What i changed:
 
-<img src="https://raw.githubusercontent.com/jpfleury/clearlooks-phenix/master/doc/exemple2.png" alt="Screenshot of gedit 3 with the Clearlooks-Phénix theme" width="659" height="537" />
+- GTK3 theme - changed colors, description and name of theme, fixed bugs from theme parser.
 
-<a href="https://raw.githubusercontent.com/jpfleury/clearlooks-phenix/master/doc/exemple3.png"><img src="https://raw.githubusercontent.com/jpfleury/clearlooks-phenix/master/doc/exemple3.png" alt="Screenshot of GTK+ Widget Factory with the Clearlooks-Phénix theme" width="658" height="435" /></a>
+- GTK2 theme - changed colors.
+
+- Openbox theme - changed colors.
+
+- Metacity theme - changed description and name of theme.
+
+- Fluxbox theme (NEW!) - added, changed colors of pixmaps.
+
+- PekWM theme (NEW!) - added, changed colors of pixmaps.
+
+- IceWM theme (NEW!) - added, changed colors of pixmaps.
+
+- XFWM4 theme - changed colors of pixmaps. (in future)
+
+- qt5ct color scheme (NEW!) - added.
+
+- TDE color scheme (NEW!) - added.
+
+### Known bugs, errors, other
+
+- Fluxbox and other WM themes untested and maybe extremely bugged!
+
+- XFWM4 theme not match in color  - because i very bad in pixel art, other image resources recolored in Inkscape (GTK3) or GIMP (other).
+
+- WM themes may not match in color  - everything is repainted by means of filters in GIMP.
 
 ## Requirements
 
-- Requirements for Clearlooks-Phénix v1: packages `gtk2-engines` (if GTK2 applications are used) and `gnome-themes-standard`.
 
-- Requirements for Clearlooks-Phénix v2: packages `gtk2-engines` (if GTK2 applications are used), `gnome-themes-standard` and `gtk3-engines-unico`.
+- Arch/Manjaro/Artix:
 
-- Requirements for Clearlooks-Phénix v3 and newer: package `gtk2-engines` (if GTK2 applications are used).
+        pacman -S gtk-engines
+        
+- Alt Linux:
+
+        apt-get install gtk2-engines
+        
+- APT/DEB based distros:
+
+        apt install gtk2-engines OR apt-get install gtk2-engines
+
+- OpenSUSE:
+
+        zypper install gtk2-engines
+
+- Fedora:
+
+        dnf install gtk2-engines
+
+- PCLinuxOS:
+
+        apt-get install gtk-engines2
+
+- ROSA Linux:
+
+        urpmi gtk-engines2
+        
+- Mageia:
+
+        urpmi gtk2-clearlooks-engine
+        
+- Solus:
+
+        eopkg install gtk-engines
+        
+- Void:
+
+        xbps-install -S gtk2-engines
 
 ## Installation
 
-- Download the appropriate version according to your situation:
-
-	- for GTK 3.0 and 3.2: [download Clearlooks-Phénix v1](https://github.com/jpfleury/clearlooks-phenix/archive/v1.zip);
-	
-	- for GTK 3.4: [download Clearlooks-Phénix v2](https://github.com/jpfleury/clearlooks-phenix/archive/v2.zip);
-	
-	- for GTK 3.6: [download Clearlooks-Phénix v3](https://github.com/jpfleury/clearlooks-phenix/archive/v3.zip);
-	
-	- for GTK 3.8: [download Clearlooks-Phénix v4](https://github.com/jpfleury/clearlooks-phenix/archive/v4.zip);
-	
-	- for GTK 3.10 and 3.12: [download Clearlooks-Phénix v5](https://github.com/jpfleury/clearlooks-phenix/archive/v5.zip);
-	
-	- for GTK 3.14: [download Clearlooks-Phénix v6](https://github.com/jpfleury/clearlooks-phenix/archive/v6.zip);
-	
-	- for GTK 3.20: [download Clearlooks-Phénix v7](https://github.com/jpfleury/clearlooks-phenix/archive/master.zip).
-	
-	To find your GTK version:
-	
-	- You can check in your package manager the version of the package `libgtk-3-0`.
-	
-	- If you use Ubuntu, here's a correspondence between its versions and those of GTK (for a default installation of Ubuntu):
-	
-		- Ubuntu 11.10: GTK 3.2
-		- Ubuntu 12.04: GTK 3.4
-		- Ubuntu 12.10 and 13.04: GTK 3.6
-		- Ubuntu 13.10: GTK 3.8
-		- Ubuntu 14.04: GTK 3.10
-		- Ubuntu 14.10: GTK 3.12
-		- Ubuntu 15.04: GTK 3.14
-		- Ubuntu 15.10: GTK 3.16
-		- Ubuntu 16.04: GTK 3.18
-		- Ubuntu 16.10: GTK 3.20
+- Download archive from "Releases"
 
 - Extract the archive.
 
-- Rename the extracted folder to `Clearlooks-Phenix`.
+- Rename the extracted folder to `Clearlooks-Phenix-Plume`.
 
-- Copy the folder `Clearlooks-Phenix` in one of the following two locations:
+- Copy the folder `Clearlooks-Phenix-Plume` in one of the following two locations:
 
 	- `~/.themes/` for the current user;
 	
 	- `/usr/share/themes/` for all users, including style for programs ran with root privileges (e.g. Synaptic).
+
+## Installation (WM Themes, color schemas)
+
+- Fluxbox: copy directory "Clearlooks-Plume" to ~/.fluxbox/themes.
+
+- IceWM: copy directory "IceClearlooks2-Plume" to ~/.icewm/themes.
+
+- PekWM: copy directory "Clearlooks-Plume" to ~/.pekwm/themes.
+
+- Qt5Ct: copy "Plume.conf" to ~/.config/qt5ct/colors.
+
+- TDE: import file "TDE Plume.kcsrc" from Colors category.
 
 ### Selection
 
@@ -69,13 +109,13 @@ The theme must be selected once the installation is complete:
 
 - On Gnome: with [gnome-tweak-tool](https://live.gnome.org/GnomeTweakTool), by setting *Theme > Window theme* and *Theme > GTK+ theme*, or in a terminal:
 
-		dconf write /org/gnome/desktop/wm/preferences/theme \'Clearlooks-Phenix\'
-		dconf write /org/gnome/desktop/interface/gtk-theme \'Clearlooks-Phenix\'
+		dconf write /org/gnome/desktop/wm/preferences/theme \'Clearlooks-Phenix-Plume\'
+		dconf write /org/gnome/desktop/interface/gtk-theme \'Clearlooks-Phenix-Plume\'
 
 - On Xfce: by going to *Settings > Appearence > Style* in the main menu for the GTK theme, and to *Settings > Window Manager > Style* for the Xfwm4 theme, or in a terminal:
 
-		xfconf-query -s Clearlooks-Phenix -c xfwm4 -p /general/theme
-		xfconf-query -s Clearlooks-Phenix -c xsettings -p /Net/ThemeName
+		xfconf-query -s Clearlooks-Phenix-Plume -c xfwm4 -p /general/theme
+		xfconf-query -s Clearlooks-Phenix-Plume -c xsettings -p /Net/ThemeName
 
 ## Configuration
 
@@ -115,35 +155,18 @@ If after installing or updating Ubuntu, the window buttons are on the left side,
 
 The wallpaper used for the Gnome 3 desktop screenshot is available in the folder `wallpapers`.
 
-### Icons
-
-The icon theme used for the same screenshot is Mist, installed with the package `gnome-themes`, under LGPL. However, this package is no longer available with last Ubuntu versions. Here's an easy way to install Mist:
-
-- [Download the archive of the Mist icon theme.](http://mirror.centos.org/centos/6/os/i386/Packages/gnome-themes-2.28.1-6.el6.noarch.rpm)
-
-- Extract the archive.
-
-- Copy the folder `usr/share/icons/Mist` in one of the following two locations:
-
-	- `~/.icons/` for the current user;
-	
-	- `/usr/share/icons/` for all users.
-
-- Then, choose Mist:
-
-	- on Gnome: with gnome-tweak-tool by setting *Theme > Icon theme*;
-	
-	- on Xfce: by going to *Settings > Appearence > Icons* in the main menu.
-
 ## Development and license
 
-Git is used for revision control. [Repository can be browsed online or cloned.](https://github.com/jpfleury/clearlooks-phenix)
+[Original theme repository](https://github.com/jpfleury/clearlooks-phenix).
+
+[Repository of this modification](https://github.com/TerminalHash/clearlooks-phenix-plume).
 
 Thanks to Andrew Shadura and Andrey Cherepanov for the support of GTK 3.20, and to Yuri Khan for the support of HiDPI.
 
 Author: Jean-Philippe Fleury (<http://www.jpfleury.net/en/contact.php>)  
 Copyright © 2011-2014 Jean-Philippe Fleury  
 Copyright © 2013-2014 Andrew Shadura
+Copyright © 2021-2021 Leon Lisov
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
@@ -171,3 +194,15 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 - [Clearlooks XFWM4](http://xfce-look.org/content/show.php/Clearlooks+for+XFWM4?content=137055) theme, under GPL.
 
 - Files in `wallpapers`, based on an [image from volvoguy](http://gnome-look.org/content/show.php?content=22210), under GPL.
+
+### Third-party files, added by TerminalHash
+
+- IceWM theme from "Box Look" by ren-cs [IceClearlooks2 Color Mas Theme Pack](https://www.box-look.org/p/1310273/).
+
+- "Plume" color scheme for Qt5Ct based on default scheme "Simple".
+
+- Fluxbox theme by GotF [Clearlooks Fluxbox style](https://www.box-look.org/p/1017005/).
+
+- PekWM theme by ?? [Beerlooks](https://www.box-look.org/p/1353095/).
+
+- TDE color scheme "TDE Plume" based on default color scheme.

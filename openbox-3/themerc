@@ -54,10 +54,10 @@ menu.items.disabled.text.color: #aaaaaa
 menu.items.active.bg: Flat Gradient splitvertical border
 
 menu.items.active.bg.color: #ad7fa8
-menu.items.active.bg.color.splitTo: #75507b
+menu.items.active.bg.color.splitTo: #ad7fa8
 
 menu.items.active.bg.colorTo: #ad7fa8
-menu.items.active.bg.colorTo.splitTo: #75507b
+menu.items.active.bg.colorTo.splitTo: #997095
 menu.items.active.bg.border.color: #5c3566
 menu.items.active.text.color: #ffffff
 
@@ -81,27 +81,27 @@ window.*.border.color: #585a5d
 window.active.title.separator.color: #4e76a8
 
 *.title.bg: Raised Gradient splitvertical
-*.title.bg.color: #75507b
+*.title.bg.color: #ad7fa8
 *.title.bg.color.splitTo: #ad7fa8
 *.title.bg.colorTo: #ad7fa8
-*.title.bg.colorTo.splitTo: #5c3566
+*.title.bg.colorTo.splitTo: #997095
 
 window.active.label.bg: Parentrelative
 window.active.label.text.color: #ffffff
 
 window.active.button.*.bg: Flat Gradient splitvertical Border
 
-window.active.button.*.bg.color: #75507b
+window.active.button.*.bg.color: #ad7fa8
 window.active.button.*.bg.color.splitTo: #ad7fa8
-window.active.button.*.bg.colorTo: #75507b
-window.active.button.*.bg.colorTo.splitTo: #ad7fa8
+window.active.button.*.bg.colorTo: #ad7fa8
+window.active.button.*.bg.colorTo.splitTo: #997095
 
 window.active.button.*.bg.border.color: #5c3566
 window.active.button.*.image.color: #F4F5F6
 
 window.active.button.hover.bg.color: #ad7fa8
-window.active.button.hover.bg.color.splitTo: #ad7fa8
-window.active.button.hover.bg.colorTo: #75507b
+window.active.button.hover.bg.color.splitTo: #75507b
+window.active.button.hover.bg.colorTo: #ad7fa8
 window.active.button.hover.bg.colorTo.splitTo: #75507b
 window.active.button.hover.bg.border.color: #5c3566
 window.active.button.hover.image.color: #ffffff

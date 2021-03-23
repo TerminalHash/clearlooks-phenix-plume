@@ -116,6 +116,12 @@ The theme must be selected once the installation is complete:
 
 		xfconf-query -s Clearlooks-Phenix-Plume -c xfwm4 -p /general/theme
 		xfconf-query -s Clearlooks-Phenix-Plume -c xsettings -p /Net/ThemeName
+		
+### Icon theme, yeah?
+
+Use Mist, GNOME Noble (from GNOME Colors) or Tango icon themes.
+
+I recommend you to use a Gnome Noble for match colors.
 
 ## Configuration
 

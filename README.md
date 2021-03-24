@@ -6,6 +6,10 @@ This repo contains modified version of original port with purple colors (named P
 
 ### What i changed:
 
+- Cinnamon theme - added, changed colors.
+
+- GNOME Shell theme - added, changed colors.
+
 - GTK3 theme - changed colors, description and name of theme, fixed bugs from theme parser.
 
 - GTK2 theme - changed colors.
@@ -14,17 +18,17 @@ This repo contains modified version of original port with purple colors (named P
 
 - Metacity theme - changed description and name of theme.
 
-- Fluxbox theme (NEW!) - added, changed colors of pixmaps.
+- Fluxbox theme - added, changed colors of pixmaps.
 
-- PekWM theme (NEW!) - added, changed colors of pixmaps.
+- PekWM theme - added, changed colors of pixmaps.
 
-- IceWM theme (NEW!) - added, changed colors of pixmaps.
+- IceWM theme - added, changed colors of pixmaps.
 
 - XFWM4 theme - changed colors of pixmaps. (in future)
 
-- qt5ct color scheme (NEW!) - added.
+- qt5ct color scheme - added.
 
-- TDE color scheme (NEW!) - added.
+- TDE color scheme - added.
 
 ### Known bugs, errors, other
 
@@ -33,6 +37,8 @@ This repo contains modified version of original port with purple colors (named P
 - XFWM4 theme not match in color  - because i very bad in pixel art, other image resources recolored in Inkscape (GTK3) or GIMP (other).
 
 - WM themes may not match in color  - everything is repainted by means of filters in GIMP.
+
+- Shell and Cinnamon themes are experimental and not tested!
 
 ## Requirements
 
@@ -212,3 +218,11 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 - PekWM theme by ?? [Beerlooks](https://www.box-look.org/p/1353095/).
 
 - TDE color scheme "TDE Plume" based on default color scheme.
+
+- Files from [TraditionalOK Clearlooks Colors](https://www.mate-look.org/p/1407000/) by rosaastrum:
+
+		- mate-applications.css
+
+		- other-applications.css
+
+- GNOME Shell theme & Cinnamon theme picked from [Ambiance Crunchy](https://www.cinnamon-look.org/p/1013654/) by frombenny.

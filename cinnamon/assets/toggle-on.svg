@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="41"
+   height="20"
+   viewBox="0 0 41 20"
+   id="svg4160"
+   version="1.1"
+   inkscape:version="1.0.2 (e86c870879, 2021-01-15)"
+   sodipodi:docname="toggle-on.svg">
+  <defs
+     id="defs4162">
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4154"
+       id="linearGradient4152"
+       x1="11.910144"
+       y1="1047.3557"
+       x2="11.911573"
+       y2="1035.7358"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.0258691,0,0,1.0359186,-0.28456044,-36.44)" />
+    <linearGradient
+       id="linearGradient4154">
+      <stop
+         id="stop4156"
+         offset="0"
+         style="stop-color:#75507b;stop-opacity:1" />
+      <stop
+         id="stop4158"
+         offset="1"
+         style="stop-color:#ad7fa8;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="8.8170733"
+     inkscape:cx="22.127952"
+     inkscape:cy="15.157169"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     units="px"
+     inkscape:showpageshadow="false"
+     inkscape:window-width="1024"
+     inkscape:window-height="576"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:document-rotation="0"
+     inkscape:snap-bbox="true"
+     inkscape:bbox-paths="true"
+     inkscape:bbox-nodes="true"
+     inkscape:snap-bbox-edge-midpoints="true"
+     inkscape:snap-bbox-midpoints="true"
+     inkscape:snap-global="false" />
+  <metadata
+     id="metadata4165">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Calque 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-1032.3622)">
+    <path
+       style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#c6c3c0;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.748912;marker:none;enable-background:accumulate"
+       d="m 12.08447,1048.3622 v -12 h 26.842134 l 0.0394,12 c -6.947316,0 -19.934217,0 -26.881534,0 z"
+       id="rect2996"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc" />
+    <rect
+       style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:url(#linearGradient4152);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+       id="rect4139"
+       width="22"
+       height="14"
+       x="0"
+       y="1035.3622"
+       ry="3"
+       rx="3" />
+    <rect
+       style="fill:#75507b;stroke:#75507b;stroke-width:1.00157;stroke-linecap:round;stroke-linejoin:round"
+       id="rect836"
+       width="0.98661518"
+       height="4.9330759"
+       x="14.05848"
+       y="1039.8534" />
+    <rect
+       style="fill:#75507b;stroke:#75507b;stroke-width:1.00157;stroke-linecap:round;stroke-linejoin:round"
+       id="rect836-3"
+       width="0.98661518"
+       height="4.9330759"
+       x="6.0702953"
+       y="1039.8534" />
+    <rect
+       style="fill:#75507b;stroke:#75507b;stroke-width:1.00157;stroke-linecap:round;stroke-linejoin:round"
+       id="rect836-6"
+       width="0.98661518"
+       height="4.9330759"
+       x="10.070295"
+       y="1039.8534" />
+  </g>
+</svg>

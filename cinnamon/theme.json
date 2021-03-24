@@ -1,0 +1,10 @@
+{ 
+   "cinnamon-theme": {
+   "name": "Clearlooks Phenix Plume", 
+   "author": "Leon Lisov (orig. - Benoit THIBAUD)", 
+   "version": "",
+   "type":   "custom",
+   "thumbnail": "thumbnail.png", 
+   "url": "" 
+    }
+}

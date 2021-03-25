@@ -16,7 +16,7 @@ This repo contains modified version of original port with purple colors (named P
 
 - Openbox theme - changed colors.
 
-- Metacity theme - changed description and name of theme.
+- Metacity theme - changed colors, description and other.
 
 - Fluxbox theme - added, changed colors of pixmaps.
 
@@ -24,7 +24,7 @@ This repo contains modified version of original port with purple colors (named P
 
 - IceWM theme - added, changed colors of pixmaps.
 
-- XFWM4 theme - changed colors of pixmaps. (in future)
+- XFWM4 theme - changed colors of pixmaps.
 
 - qt5ct color scheme - added.
 
@@ -34,7 +34,7 @@ This repo contains modified version of original port with purple colors (named P
 
 - Fluxbox and other WM themes untested and maybe extremely bugged!
 
-- XFWM4 theme not match in color  - because i very bad in pixel art, other image resources recolored in Inkscape (GTK3) or GIMP (other).
+- XFWM4 theme painted crookedly - I'm not very good at pixel art, so I tried my best.
 
 - WM themes may not match in color  - everything is repainted by means of filters in GIMP.
 

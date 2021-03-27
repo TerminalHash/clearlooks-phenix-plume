@@ -99,7 +99,7 @@ This repo contains modified version of original port with purple colors (named P
 
 ## Installation (WM Themes, color schemas)
 
-- Fluxbox: copy directory "Clearlooks-Plume" to ~/.fluxbox/themes.
+- Fluxbox: copy directory "Clearlooks-Plume" to ~/.fluxbox/styles.
 
 - IceWM: copy directory "IceClearlooks2-Plume" to ~/.icewm/themes.
 

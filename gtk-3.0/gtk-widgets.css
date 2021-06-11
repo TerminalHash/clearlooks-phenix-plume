@@ -526,9 +526,7 @@ toolbar.inline-toolbar button,
 toolbar.primary-toolbar button,
 toolbar.primary-toolbar button:active,
 toolbar.horizontal button,
-toolbar.horizontal button:active,
-.titlebar .linked.raised button,
-.titlebar .linked.raised button:active {
+toolbar.horizontal button:active, {
 	padding: 3px 8px 6px;
 	background-image: -gtk-gradient (linear,
 	                  left top,
@@ -763,7 +761,6 @@ spinbutton.vertical > button:focus:active:last-child {
 button,
 spinbutton button,
 combobox button.combo,
-.titlebar .titlebutton:hover,
 colorchooser #add-color-button {
 	background-image: -gtk-gradient (linear,
 	                  left top,
@@ -2499,7 +2496,9 @@ infobar:last-child,
  * Titlebar *
  ************/
 
-.titlebar {
+.titlebar:not(headerbar),
+headerbar, .default-decoration.titlebar:not(headerbar),
+  headerbar.default-decoration {
 	background-image: linear-gradient(to bottom, #8A5F91, #75507b);
 	background-color: transparent;
 	border-radius: 8px 8px 0 0;
@@ -2510,7 +2509,12 @@ infobar:last-child,
     font-size: 12px;
 }
 
-.titlebar:backdrop{
+.titlebar:not(headerbar) > separator{
+    background: #5c3566;
+}
+
+.titlebar:backdrop:not(headerbar),
+  headerbar:backdrop {
     background-image: linear-gradient(to bottom, #E6EBE2, #d3d7cf);
     color: #989C95;
 }
@@ -2520,56 +2524,99 @@ infobar:last-child,
 }
 
 .tiled .titlebar {
-	border-radius: 8px 8px 0 0;
-}
-
-.maximized .titlebar {
 	border-radius: 0;
 }
 
-.titlebar .title {
+.tiled .titlebar:backdrop:not(headerbar), .tiled .titlebar:not(headerbar), .maximized .titlebar:backdrop:not(headerbar), .maximized .titlebar:not(headerbar), .tiled
+  headerbar:backdrop, .tiled
+  headerbar, .maximized
+  headerbar:backdrop, .maximized
+  headerbar, .maximixed .csd, .maximized decoration {
+	border-radius: 0;
+}
+
+.titlebar:not(headerbar) .title,
+  headerbar .title {
+    padding-left: 8px;
+    padding-right: 8px;
 	font-weight: bold;
 }
+
+.titlebar:not(headerbar) .subtitle,
+  headerbar .subtitle {
+    font-size: smaller;
+    padding-left: 12px;
+    padding-right: 12px; }
 
 /*.titlebar :first-child {*/
 /*	padding: 5px 5px 6px 5px;*/
 /*}*/
 
-.titlebar button, .titlebar .linked button, .titlebar button:disabled,
-.titlebar .linked button:disabled, .titlebar button.flat {
+button.titlebutton, headerbar button, .default-decoration.titlebar:not(headerbar) button.titlebutton, headerbar.default-decoration button.titlebutton, .titlebar button, .titlebar .linked button, .titlebar button:disabled, .titlebar .linked button:disabled, .titlebar button.flat {
 	background: linear-gradient(to bottom, #A06EA8, #8A5F91);
     border: 1px solid #5c3566;
 	border-image: none;
-    padding: 3px;
+    max-height: 16px;
+    max-width: 16px;
+    margin: 0;
+    padding: 0;
+    color: white;
+    box-shadow: none;
 }
 
-.titlebar button:active, .titlebar .linked button:active,
-.titlebar button:checked, .titlebar .linked button:checked,
-.titlebar button.flat:active {
+button.titlebutton:active, headerbar button:active, .default-decoration.titlebar:not(headerbar) button.titlebutton:active, headerbar.default-decoration button.titlebutton:active, .titlebar button:active, .titlebar .linked button:active, .titlebar button:checked, .titlebar .linked button:checked, .titlebar button.flat:active {
+	background: #5c3566;
+    border: 1px solid #5c3566;
+    border-image: none;
+    box-shadow: none;
+    color: white;
+}
+
+button.titlebutton:hover, headerbar button:hover, .default-decoration.titlebar:not(headerbar) button.titlebutton:hover, headerbar.default-decoration button.titlebutton:hover, .titlebar button:hover, .titlebar .linked button:hover, .titlebar button:checked:hover, .titlebar .linked button:checked:hover, .titlebar button.flat:hover {
 	background: #ad7fa8;
     border: 1px solid #5c3566;
     border-image: none;
+    box-shadow: none;
+    color: white;
 }
 
-.titlebar button:backdrop, .titlebar .linked button:backdrop,
-.titlebar button.suggested-action:backdrop,
-.titlebar button.destructive-action:backdrop{
+button.titlebutton:backdrop, headerbar button:backdrop, .default-decoration.titlebar:not(headerbar) button.titlebutton:backdrop, headerbar.default-decoration button.titlebutton:backdrop, .titlebar button:backdrop, .titlebar .linked button:backdrop, .titlebar button.suggested-action:backdrop,  .titlebar button.destructive-action:backdrop {
     background: linear-gradient(to bottom, #FAFFF5, #E6EBE2);
     border: 1px solid #989C95;
+    border-image: none;
+    box-shadow: none;
+    color: #989C95;
 }
+
+  .solid-csd .titlebar:backdrop:dir(rtl):not(headerbar), .solid-csd .titlebar:backdrop:dir(ltr):not(headerbar), .solid-csd .titlebar:dir(rtl):not(headerbar), .solid-csd .titlebar:dir(ltr):not(headerbar), .solid-csd
+  headerbar:backdrop:dir(rtl), .solid-csd
+  headerbar:backdrop:dir(ltr), .solid-csd
+  headerbar:dir(rtl), .solid-csd
+  headerbar:dir(ltr) {
+    margin-left: -1px;
+    margin-right: -1px;
+    margin-top: -1px;
+    border-radius: 0;
+    box-shadow: none; }
 
 decoration {
 	box-shadow: none;
 }
 
-window decoration, decoration, .csd decoration, dialog decoration, window.background.csd deck > deck > box {
+window.csd, .solid-csd decoration, decoration {
+    background-image: linear-gradient(to bottom, #8A5F91, #75507b);
 	border: solid 1px #5c3566;
-    border-radius: 9px 9px 0 0;
+    border-radius: 10px 10px 0 0;
+    margin: 0;
+    padding: 0;
 }
 
-.csd menu, menu, menu:backdrop, .menu, .menu:backdrop{
-    border: solid 1px #989C95;
+.maximized decoration, .fullscreen decoration, .tiled decoration {
+    border-radius: 0; }
+
+.csd.popup decoration {
     border-radius: 0;
+    border: none;
 }
 
 tooltip.csd decoration {
@@ -2582,18 +2629,11 @@ messagedialog.csd decoration {
 	box-shadow: 0 1px 5px @wm_shadow;
 }
 
-decoration:backdrop, .csd decoration:backdrop, dialog decoration:backdrop,
-window decoration:backdrop, window.background.csd:backdrop deck > deck > box{
+decoration:backdrop, .csd:backdrop, .solid-csd decoration:backdrop{
     border: solid 1px #989C95;
 }
 
-window :not(menu) decoration,
-window :not(.menu) decoration,
-window :not(.context-menu) decoration {
-  padding: 0px;
-  border: none; }
-
-window .contex-menu{
+.contex-menu decoration{
     border: solid 1px #989C95;
     border-radius: 0;
 }
@@ -2611,6 +2651,10 @@ actionbar {
     color: white;
 }
 
+.maximize.titlebutton:hover, .minimize.titlebutton:hover, .restore.titlebutton:hover, .close.titlebutton:hover {
+    color: white;
+}
+
 .maximize.titlebutton:backdrop, .minimize.titlebutton:backdrop, .restore.titlebutton:backdrop, .close.titlebutton:backdrop {
     color: #989C95;
 }
@@ -2618,11 +2662,6 @@ actionbar {
 /**************
  * Header bar *
  **************/
-
-headerbar {
-	padding: 5px 2px 2px 2px;
-	border-image: none;
-}
 
 headerbar.titlebar > stackswitcher.linked.stack-switcher > button,
 headerbar.titlebar > stackswitcher.linked.stack-switcher > button:checked:hover {
@@ -2754,4 +2793,17 @@ printdialog.background > box.view.vertical.dialog-vbox {
 
 dialog.background dialog-vbox.vertical .vertical {
 	background: transparent;
+}
+
+/**************
+ * GtkVideo *
+ **************/
+
+video {
+    image.osd {
+        min-width: 64px;
+        min-height: 64px;
+        border-radius: 32px;
+  }
+    background: black;
 }

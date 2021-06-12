@@ -2,6 +2,14 @@
  * Nautilus *
  ************/
 
+.nautilus-window {
+    background-image: linear-gradient(to bottom, #8A5F91, #75507b);
+	border: solid 1px #5c3566;
+    border-radius: 10px 10px 0 0;
+    margin: 0;
+    padding: 0;
+}
+
 .nautilus-desktop.nautilus-canvas-item {
 	color: @theme_base_color;
 	text-shadow: 1px 1px alpha (@theme_fg_color, 0.8);
@@ -124,8 +132,8 @@ GsmFailWhaleDialog {
  ******************/
 
 TerminalScreen {
-	background-color: @theme_base_color;
-	color: @theme_fg_color;
+	background-color: black;
+	color: white;
 }
 
 /*********

@@ -461,9 +461,7 @@ switch,
 /* generic button borders */
 button,
 button.flat:active,
-button.flat:hover,
 .menu-button:active,
-.titlebar button.titlebutton:hover,
 toolbar.primary-toolbar button:checked,
 toolbar.primary-toolbar button.raised,
 toolbar.primary-toolbar .linked button.raised,
@@ -492,12 +490,11 @@ toolbar.primary-toolbar switch:disabled,
 toolbar.primary-toolbar combobox button:active,
 toolbar.primary-toolbar combobox button:disabled,
 /* primary toolbar - hover button borders */
-toolbar.primary-toolbar button:hover {
-	border-image: url("img/border.svg") 3 3 4 3 / 3px 3px 4px 3px repeat;
+toolbar.primary-toolbar {
 	border-radius: 3px;
 	border-width: 1px 1px 2px 1px;
 	border-style: solid;
-	border-color: transparent;
+	border-color: #989C95;
 }
 
 toolbar.primary-toolbar entry,
@@ -625,11 +622,10 @@ toolbar.inline-toolbar toolbutton button :only-child:active,
 toolbar.inline-toolbar toolbutton button :only-child:focus,
 toolbar.inline-toolbar toolbutton button :only-child:focus:active,
 toolbar.inline-toolbar toolbutton button :only-child:disabled {
-	border-image: url("img/border-inline-button.svg") 3 3 4 3 / 3px 3px 4px 3px repeat;
 	border-radius: 3px;
 	border-width: 1px 1px 2px 1px;
 	border-style: solid;
-	border-color: transparent;
+	border-color: #989C95;
 }
 
 /* generic insensitive element borders */
@@ -639,18 +635,18 @@ combobox button:disabled,
 entry:disabled,
 button:disabled,
 trough row {
-	border-image: url("img/border-insensitive.svg") 3 3 4 3 / 3px 3px 4px 3px repeat;
 	border-radius: 3px;
 	border-width: 1px 1px 2px 1px;
 	border-style: solid;
-	border-color: transparent;
+	border-color: #989C95;
 }
 
 menuitem button.flat,
 button.flat,
 button.flat:disabled,
 list row button,
-list row button:hover {
+list row button:hover,
+.titlebar button {
     border-image: none;
     background-image: none;
 }
@@ -661,6 +657,10 @@ combobox entry:focus,
 button.flat:focus:active,
 button:focus:active,
 button.default:active,
+button:active,
+button.flat:hover,
+button:hover,
+.titlebar button.titlebutton:hover,
 /* focused button borders */
 button.flat:focus,
 button.default,
@@ -679,28 +679,25 @@ toolbar.primary-toolbar button.raised.default,
 toolbar.primary-toolbar .raised button:focus,
 toolbar.primary-toolbar .raised button.default,
 toolbar.primary-toolbar combobox button:focus {
-	border-image: url("img/border-focused.svg") 3 3 4 3 / 3px 3px 4px 3px repeat;
 	border-radius: 3px;
 	border-width: 1px 1px 2px 1px;
 	border-style: solid;
-	border-color: transparent;
+	border-color: #5c3566;
 }
 
 /* focused primary toolbar button borders */
 toolbar.primary-toolbar button:focus {
-	border-image: url("img/border-focused-ptb.svg") 3 3 4 3 / 3px 3px 4px 3px repeat;
 	border-radius: 3px;
 	border-width: 1px 1px 2px 1px;
 	border-style: solid;
-	border-color: transparent;
+	border-color: #5c3566;
 }
 
 /* focused switch trough borders */
 switch:active {
-	border-image: url("img/border-focused-switch.svg") 3 3 4 3 / 3px 3px 4px 3px stretch;
 	border-radius: 3px;
 	border-width: 1px 1px 2px 1px;
 	border-style: solid;
-	border-color: transparent;
+	border-color: #5c3566;
 }
 

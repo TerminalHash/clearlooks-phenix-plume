@@ -2677,6 +2677,7 @@ treemenu menuitem {
 menu,
 .menu {
 	font-weight: normal;
+    font-size: 14px;
 	background-color: @menu_bg_color;
 	color: @menu_fg_color;
 	padding: 1px;
@@ -2730,7 +2731,7 @@ menubar menuitem,
 	border-style: solid;
 	border-width: 1px;
 	border-color: transparent;
-	padding: 3px 5px;
+	padding: 1px 5px;
 	background-color: transparent;
 }
 

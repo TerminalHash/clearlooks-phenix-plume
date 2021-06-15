@@ -2281,13 +2281,16 @@ headerbar, .default-decoration.titlebar:not(headerbar),
 	border-radius: 8px 8px 0 0;
 	border-bottom: 1px solid;
 	border-color: #5c3566;
-	padding: 3px 4px 4px 4px;
+	padding: 0px 4px 4px 4px;
+    min-height: 24px;
+    max-height: 24px;
     color: white;
     font-size: 12px;
 }
 
 .titlebar:not(headerbar) > separator{
     background: #5c3566;
+    max-height: 8px;
 }
 
 .titlebar:backdrop:not(headerbar),
@@ -2317,6 +2320,7 @@ headerbar, .default-decoration.titlebar:not(headerbar),
   headerbar .title {
     padding-left: 8px;
     padding-right: 8px;
+    margin-top: 4px;
 	font-weight: bold;
 }
 
@@ -2358,6 +2362,7 @@ headerbar entry {
   min-height: 16px;
   min-width: 32px;
   margin-right: 2px;
+  margin-top: 4px;
   font-size: 9pt;
   background: linear-gradient(to bottom, #A06EA8, #8A5F91);
   box-shadow: none;

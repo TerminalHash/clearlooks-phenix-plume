@@ -646,7 +646,8 @@ button.flat,
 button.flat:disabled,
 list row button,
 list row button:hover,
-.titlebar button {
+.titlebar button, .titlebar button:first-child, button.titlebutton:first-child
+{
     border-image: none;
     background-image: none;
 }
@@ -660,7 +661,6 @@ button.default:active,
 button:active,
 button.flat:hover,
 button:hover,
-.titlebar button.titlebutton:hover,
 /* focused button borders */
 button.flat:focus,
 button.default,

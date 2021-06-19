@@ -2276,7 +2276,16 @@ infobar:last-child,
 .titlebar:not(headerbar),
 headerbar, .default-decoration.titlebar:not(headerbar),
   headerbar.default-decoration, .csd headerbar.default-decoration, .csd .default-decoration.titlebar:not(headerbar) {
-	background-image: linear-gradient(to bottom, #8A5F91, #75507b);
+      background-image: -gtk-gradient (linear,
+	                  left top,
+	                  left bottom,
+	                  from (#B47CBD),
+	                  color-stop (0.05, #8A5F91),
+	                  color-stop (0.15, #77527D),
+                      color-stop (0.90, #AD7FA8),
+                      color-stop (0.50, #8F698B),
+	                  to (#75507b));
+	/*background-image: linear-gradient(to bottom, #8A5F91, #75507b);*/
 	background-color: transparent;
 	border-radius: 8px 8px 0 0;
 	border-bottom: 1px solid;
@@ -2295,7 +2304,16 @@ headerbar, .default-decoration.titlebar:not(headerbar),
 
 .titlebar:backdrop:not(headerbar),
   headerbar:backdrop, .csd headerbar.default-decoration:backdrop, .csd .default-decoration.titlebar:backdrop:not(headerbar) {
-    background-image: linear-gradient(to bottom, #E6EBE2, #d3d7cf);
+      background-image: -gtk-gradient (linear,
+	                  left top,
+	                  left bottom,
+	                  from (#F5FAF0),
+	                  color-stop (0.05, #E6EBE2),
+	                  color-stop (0.15, #CFD4CC),
+                      color-stop (0.90, #eeeeec),
+                      color-stop (0.50, #DEDEDC),
+	                  to (#d3d7cf));
+    /*background-image: linear-gradient(to bottom, #E6EBE2, #d3d7cf);*/
     color: #989C95;
 	border-color: #989C95;
 }
@@ -2389,6 +2407,12 @@ button.titlebutton, .default-decoration.titlebar:not(headerbar) button.titlebutt
   border-image: none;
 }
 
+.default-decoration.titlebar:not(headerbar) button.titlebutton.close, button.titlebutton.close {
+  background: linear-gradient(to bottom, #ef2929, #cc0000);
+  border: 1px solid #a40000;
+  border-image: none;
+}
+
 button.titlebutton:active, button.titlebutton:hover:active, .default-decoration.titlebar:not(headerbar) button.titlebutton:active, .titlebar button:active, .titlebar button:hover:active, .titlebar button:hover:active:first-child, .titlebar .linked button:active, .titlebar button.suggested-action:active,  .titlebar button.destructive-action:active {
 	background: linear-gradient(to bottom, #834C91, #71417D);
     border: 1px solid #5c3566;
@@ -2397,12 +2421,24 @@ button.titlebutton:active, button.titlebutton:hover:active, .default-decoration.
     color: white;
 }
 
+.default-decoration.titlebar:not(headerbar) button.titlebutton.close:active, button.titlebutton.close:active{
+  background: linear-gradient(to bottom, #cc0000, #B20000);
+  border: 1px solid #a40000;
+  border-image: none;
+}
+
 button.titlebutton:hover, .default-decoration.titlebar:not(headerbar) button.titlebutton:hover, .titlebar button:hover, .titlebar button:hover:first-child, .titlebar .linked button:hover, .titlebar button.suggested-action:hover,  .titlebar button.destructive-action:hover {
 	background: #ad7fa8;
     border: 1px solid #5c3566;
     border-image: none;
     box-shadow: none;
     color: white;
+}
+
+.default-decoration.titlebar:not(headerbar) button.titlebutton.close:hover, button.titlebutton.close:hover {
+  background: #ef2929;
+  border: 1px solid #a40000;
+  border-image: none;
 }
 
 button.titlebutton:backdrop, .default-decoration.titlebar:not(headerbar) button.titlebutton:backdrop, .titlebar button:backdrop, .titlebar .linked button:backdrop, .titlebar button.suggested-action:backdrop,  .titlebar button.destructive-action:backdrop {
@@ -2429,7 +2465,15 @@ decoration {
 }
 
 window.csd, .solid-csd decoration, decoration {
-    background-image: linear-gradient(to bottom, #8A5F91, #75507b);
+    background-image: -gtk-gradient (linear,
+	                  left top,
+	                  left bottom,
+	                  from (#B47CBD),
+	                  color-stop (0.05, #8A5F91),
+	                  color-stop (0.15, #77527D),
+                      color-stop (0.90, #AD7FA8),
+                      color-stop (0.50, #8F698B),
+	                  to (#75507b));
 	border: solid 1px #5c3566;
     border-radius: 8px 8px 0 0;
     margin: 0;

@@ -77,8 +77,9 @@ toolbar.inline-toolbar button,
 toolbar.primary-toolbar button,
 toolbar.primary-toolbar button:active,
 toolbar.horizontal button,
-toolbar.horizontal button:active, {
-	padding: 3px 8px 6px;
+toolbar.horizontal button:hover,
+toolbar.horizontal button:active {
+	padding: 4px 8px 6px;
 	background-image: -gtk-gradient (linear,
 	                  left top,
 	                  left bottom,
@@ -104,9 +105,7 @@ button.lock {
 }
 
 toolbar button,
-toolbar.primary-toolbar button,
-toolbar.horizontal button:hover,
-toolbar.horizontal button:active {
+toolbar.primary-toolbar button {
 	padding: 4px 6px;
 }
 

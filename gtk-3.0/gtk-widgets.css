@@ -2377,7 +2377,7 @@ headerbar button:disabled, .titlebar button:disabled {
 
 /* Close, minimize and maximize buttons */
 
-button.titlebutton, .default-decoration.titlebar:not(headerbar) button.titlebutton, button.titlebutton:first-child {
+button.titlebutton, .default-decoration.titlebar:not(headerbar) button.titlebutton, button.titlebutton:not(.appmenu) {
   min-height: 16px;
   min-width: 16px;
   border: none;

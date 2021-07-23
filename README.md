@@ -6,9 +6,9 @@ This repo contains modified version of original port with purple colors (named P
 
 ### What i changed:
 
-- Cinnamon theme - added, changed colors.
+- Cinnamon theme - added, changed colors. // hidden
 
-- GNOME Shell theme - added, changed colors.
+- GNOME Shell theme - added, changed colors. // hidden
 
 - GTK3 theme - changed colors, description and name of theme, fixed bugs from theme parser.
 
@@ -225,4 +225,4 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 		- other-applications.css
 
-- GNOME Shell theme & Cinnamon theme picked from [Ambiance Crunchy](https://www.cinnamon-look.org/p/1013654/) by frombenny.
+- GNOME Shell theme & Cinnamon theme picked from [Ambiance Crunchy](https://www.cinnamon-look.org/p/1013654/) by frombenny. // hidden

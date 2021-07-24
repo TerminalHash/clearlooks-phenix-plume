@@ -1,0 +1,64 @@
+/***************** Title buttons * */
+windowcontrols { border-spacing: 6px; }
+
+windowcontrols:not(.empty).start:dir(ltr), windowcontrols:not(.empty).end:dir(rtl) { margin-right: 7px; }
+
+windowcontrols:not(.empty).start:dir(rtl), windowcontrols:not(.empty).end:dir(ltr) { margin-left: 7px; }
+
+windowcontrols button { border-radius: 9999px; padding: 6px; margin: 0 2px; min-width: 0; min-height: 0; }
+
+windowcontrols button:hover { border-color: transparent; background-image: none; box-shadow: none; background-color: #1b1b1b; }
+
+windowcontrols button:active, windowcontrols button:checked { border-color: transparent; background-image: none; box-shadow: none; background-color: #070707; }
+
+/*************** Header bars * */
+.titlebar:not(headerbar), headerbar { padding: 0 6px; min-height: 46px; border-width: 0 0 1px; border-style: solid; border-color: #070707; border-radius: 0; background: #1b1b1b linear-gradient(to top, #262626, #2b2b2b); /* Darken switchbuttons for headerbars. issue #1588 */ }
+
+.titlebar:backdrop:not(headerbar), headerbar:backdrop { border-color: #202020; background-color: #353535; background-image: none; transition: 200ms ease-out; }
+
+.titlebar:not(headerbar) .title, headerbar .title { padding-left: 12px; padding-right: 12px; font-weight: bold; }
+
+.titlebar:not(headerbar) .subtitle, headerbar .subtitle { font-size: smaller; padding-left: 12px; padding-right: 12px; }
+
+.titlebar:not(headerbar) stackswitcher > button:checked, .titlebar:not(headerbar) button.toggle:checked, headerbar stackswitcher > button:checked, headerbar button.toggle:checked { background: image(#1e1e1e); border-color: #141414; border-top-color: #070707; }
+
+.titlebar:not(headerbar) stackswitcher > button:checked:backdrop, .titlebar:not(headerbar) button.toggle:checked:backdrop, headerbar stackswitcher > button:checked:backdrop, headerbar button.toggle:checked:backdrop { color: #919190; border-color: #202020; background-image: image(#2e2e2e); box-shadow: none; }
+
+.tiled .titlebar:not(headerbar), .tiled-top .titlebar:not(headerbar), .tiled-left .titlebar:not(headerbar), .tiled-right .titlebar:not(headerbar), .tiled-bottom .titlebar:not(headerbar), .maximized .titlebar:not(headerbar), .fullscreen .titlebar:not(headerbar), .tiled headerbar, .tiled-top headerbar, .tiled-left headerbar, .tiled-right headerbar, .tiled-bottom headerbar, .maximized headerbar, .fullscreen headerbar { border-radius: 0; }
+
+.default-decoration.titlebar:not(headerbar), headerbar.default-decoration { min-height: 28px; padding: 4px; }
+
+.default-decoration.titlebar:not(headerbar) windowcontrols button, .default-decoration.titlebar:not(headerbar) windowcontrols menubutton, headerbar.default-decoration windowcontrols button, headerbar.default-decoration windowcontrols menubutton { min-height: 26px; min-width: 26px; margin: 0; padding: 0; }
+
+.default-decoration.titlebar:not(headerbar) windowcontrols menubutton button, headerbar.default-decoration windowcontrols menubutton button { min-height: 20px; min-width: 20px; margin: 0; padding: 4px; }
+
+.solid-csd .titlebar:dir(rtl):not(headerbar), .solid-csd .titlebar:dir(ltr):not(headerbar), .solid-csd headerbar:backdrop:dir(rtl), .solid-csd headerbar:backdrop:dir(ltr), .solid-csd headerbar:dir(rtl), .solid-csd headerbar:dir(ltr) { margin-left: -1px; margin-right: -1px; margin-top: -1px; border-radius: 0; box-shadow: none; }
+
+headerbar > windowhandle > box, headerbar > windowhandle > box > box.start, headerbar > windowhandle > box > box.end { border-spacing: 6px; }
+
+headerbar entry, headerbar spinbutton, headerbar separator:not(.sidebar), headerbar button, headerbar menubutton { margin-top: 6px; margin-bottom: 6px; }
+
+headerbar menubutton > button { margin-top: 0px; margin-bottom: 0px; }
+
+headerbar switch { margin-top: 10px; margin-bottom: 10px; }
+
+window.csd > .titlebar:not(headerbar) { padding: 0; background-color: transparent; background-image: none; border-style: none; border-color: transparent; }
+
+.titlebar:not(headerbar) separator { background-color: #1b1b1b; }
+
+window.devel headerbar.titlebar { background: #353535 cross-fade(10% -gtk-icontheme("system-run-symbolic"), image(transparent)) 90% 0/256px 256px no-repeat, linear-gradient(to right, transparent 65%, rgba(21, 83, 158, 0.1)), linear-gradient(to top, #232323 3px, #282828); }
+
+window.devel headerbar.titlebar:backdrop { background: #353535 cross-fade(10% -gtk-icontheme("system-run-symbolic"), image(transparent)) 90% 0/256px 256px no-repeat, image(#353535); /* background-color would flash */ }
+
+/************ Pathbars * */
+pathbar > button.text-button, pathbar > button.image-button, pathbar > button { padding-left: 4px; padding-right: 4px; }
+
+pathbar > button.text-button.image-button label { padding-left: 0; padding-right: 0; }
+
+pathbar > button.text-button.image-button label:last-child, pathbar > button label:last-child { padding-right: 8px; }
+
+pathbar > button.text-button.image-button label:first-child, pathbar > button label:first-child { padding-left: 8px; }
+
+pathbar > button image { padding-left: 4px; padding-right: 4px; }
+
+pathbar > button.slider-button { padding-left: 0; padding-right: 0; }

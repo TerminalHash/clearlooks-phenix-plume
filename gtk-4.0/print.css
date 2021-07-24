@@ -1,0 +1,7 @@
+/**************** Print dialog * */
+window.dialog.print drawing { color: #eeeeec; background: none; border: none; padding: 0; }
+
+window.dialog.print drawing paper { background: white; color: #2e3436; border: 1px solid #1b1b1b; }
+
+window.dialog.print .dialog-action-box { margin: 12px; }
+

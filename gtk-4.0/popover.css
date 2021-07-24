@@ -1,0 +1,81 @@
+/*************** Popovers   * */
+popover.background { background-color: transparent; font: initial; }
+
+popover.background > arrow, popover.background > contents { background-color: #2d2d2d; background-clip: padding-box; border: 1px solid rgba(0, 0, 0, 0.75); box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3); }
+
+popover.background:backdrop { background-color: transparent; }
+
+popover.background > contents { padding: 8px; border-radius: 9px; }
+
+popover.background > contents > list, popover.background > contents > .view, popover.background > contents > iconview, popover.background > contents > toolbar { border-style: none; background-color: transparent; }
+
+popover.background > contents separator { background-color: #232323; margin: 3px; }
+
+popover.background > contents list separator { margin: 0; }
+
+.osd popover.background, popover.background.touch-selection, popover.background.magnifier { background-color: transparent; }
+
+.osd popover.background > arrow, .osd popover.background > contents, popover.background.touch-selection > arrow, popover.background.touch-selection > contents, popover.background.magnifier > arrow, popover.background.magnifier > contents { border: 1px solid rgba(255, 255, 255, 0.1); box-shadow: none; }
+
+magnifier { background-color: #2d2d2d; }
+
+/********************** Popover Base Menus * */
+popover.menu { padding: 0; }
+
+popover.menu box.inline-buttons { padding: 0 12px; }
+
+popover.menu box.inline-buttons button.image-button.model { border-color: transparent; background-color: transparent; background-image: none; box-shadow: none; min-height: 30px; min-width: 30px; padding: 0; border: none; outline: none; transition: none; }
+
+popover.menu box.inline-buttons button.image-button.model:selected { background: image(#202020); }
+
+popover.menu box.circular-buttons { padding: 12px 12px 6px; }
+
+popover.menu box.circular-buttons button.circular.image-button.model { padding: 11px; }
+
+popover.menu box.circular-buttons button.circular.image-button.model:focus { background-color: #202020; border-color: #202020; }
+
+popover.menu > arrow, popover.menu.background > contents { background-color: #2d2d2d; padding: 5px; }
+
+popover.menu.background separator { margin: 6px 0; }
+
+popover.menu accelerator { color: alpha(currentColor,0.55); }
+
+popover.menu accelerator:dir(ltr) { margin-left: 12px; }
+
+popover.menu accelerator:dir(rtl) { margin-right: 12px; }
+
+popover.menu check, popover.menu radio { transform: scale(0.8); border-width: 1.2px; border-color: transparent; box-shadow: none; background-image: image(transparent); color: white; }
+
+popover.menu check:hover, popover.menu radio:hover { transform: scale(0.8); border-width: 1.2px; color: white; box-shadow: none; background-image: image(transparent); }
+
+popover.menu check:active, popover.menu radio:active { transform: scale(0.8); border-width: 1.2px; color: white; box-shadow: none; background-image: image(transparent); }
+
+popover.menu radio { border-color: #1b1b1b; }
+
+popover.menu radio:active { border-color: rgba(27, 27, 27, 0.5); }
+
+popover.menu arrow.left, popover.menu radio.left, popover.menu check.left { margin-left: -2px; margin-right: 6px; }
+
+popover.menu arrow.right, popover.menu radio.right, popover.menu check.right { margin-left: 6px; margin-right: -2px; }
+
+popover.menu modelbutton { min-height: 30px; min-width: 40px; padding: 0 12px; border-radius: 5px; }
+
+popover.menu modelbutton:selected { color: white; background-color: #202020; }
+
+popover.menu modelbutton:selected:active { background-color: #111111; }
+
+popover.menu label.title { font-weight: bold; padding: 4px 32px; }
+
+menubar { padding: 0px; box-shadow: inset 0 -1px rgba(0, 0, 0, 0.1); }
+
+menubar > item { min-height: 16px; padding: 4px 8px; }
+
+menubar > item:selected { box-shadow: inset 0 -3px #15539e; color: #3584e4; }
+
+menubar > item:disabled { color: #919190; box-shadow: none; }
+
+menubar > item popover.menu.background > contents { padding: 5px; }
+
+menubar > item popover.menu popover.menu { padding: 0 0 4px 0; }
+
+menubar > item popover.menu.background popover.menu.background > contents { margin: 0; border-radius: 9px; }

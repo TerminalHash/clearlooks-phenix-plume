@@ -1,0 +1,66 @@
+/***************** Progress bars * */
+progressbar { font-size: smaller; color: rgba(238, 238, 236, 0.4); font-feature-settings: "tnum"; }
+
+progressbar.horizontal > trough { min-width: 150px; }
+
+progressbar.horizontal > trough, progressbar.horizontal > trough > progress { min-height: 2px; }
+
+progressbar.vertical > trough { min-height: 80px; }
+
+progressbar.vertical > trough, progressbar.vertical > trough > progress { min-width: 2px; }
+
+progressbar.horizontal > trough > progress { margin: 0 -1px; }
+
+progressbar.vertical > trough > progress { margin: -1px 0; }
+
+progressbar > trough > progress { /* share most of scales' */ /* override insensitive that is specific to progress */ border-radius: 1.5px; }
+
+progressbar > trough > progress:disabled { background-color: #919190; border-color: #919190; }
+
+progressbar > trough > progress.left { border-top-left-radius: 5px; border-bottom-left-radius: 5px; }
+
+progressbar > trough > progress.right { border-top-right-radius: 5px; border-bottom-right-radius: 5px; }
+
+progressbar > trough > progress.top { border-top-right-radius: 5px; border-top-left-radius: 5px; }
+
+progressbar > trough > progress.bottom { border-bottom-right-radius: 5px; border-bottom-left-radius: 5px; }
+
+progressbar.osd { min-width: 3px; min-height: 3px; background-color: transparent; }
+
+progressbar.osd > trough { border-style: none; border-radius: 0; background-color: transparent; box-shadow: none; }
+
+progressbar.osd > trough > progress { border-style: none; border-radius: 0; }
+
+progressbar > trough.empty > progress { all: unset; }
+
+/************* Level Bar * */
+levelbar.horizontal trough > block { min-height: 9px; border-radius: 5px; }
+
+levelbar.horizontal trough > block:dir(rtl) { border-radius: 0 5px 5px 0; }
+
+levelbar.horizontal trough > block:dir(ltr) { border-radius: 5px 0 0 5px; }
+
+levelbar.horizontal trough > block.empty, levelbar.horizontal trough > block.full { border-radius: 5px; }
+
+levelbar.horizontal.discrete trough > block { min-height: 2px; margin: 1px; min-width: 24px; border-radius: 0; }
+
+levelbar.horizontal.discrete trough > block:first-child { border-radius: 2px 0 0 2px; }
+
+levelbar.horizontal.discrete trough > block:last-child { border-radius: 0 2px 2px 0; }
+
+levelbar.vertical trough > block { min-width: 9px; border-radius: 5px; }
+
+levelbar.vertical.discrete > trough > block { min-width: 2px; margin: 1px 0; min-height: 32px; }
+
+levelbar > trough { padding: 0; }
+
+levelbar > trough > block { border: 1px solid; }
+
+levelbar > trough > block.low { border-color: #f57900; background-color: #f57900; }
+
+levelbar > trough > block.high, levelbar > trough > block:not(.empty) { border-color: #15539e; background-color: #15539e; }
+
+levelbar > trough > block.full { border-color: #26ab62; background-color: #26ab62; }
+
+levelbar > trough > block.empty { background-color: #282828; border-color: #282828; }
+

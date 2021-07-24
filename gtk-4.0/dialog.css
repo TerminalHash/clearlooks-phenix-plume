@@ -1,0 +1,22 @@
+/*********** Dialogs * */
+window.dialog.message .titlebar { min-height: 20px; background-image: none; background-color: #353535; border-style: none; border-top-left-radius: 7px; border-top-right-radius: 7px; }
+
+window.dialog.message box.dialog-vbox.vertical { border-spacing: 10px; }
+
+window.dialog.message label.title { font-weight: 800; font-size: 15pt; }
+
+window.dialog.message.csd.background { border-bottom-left-radius: 9px; border-bottom-right-radius: 9px; }
+
+window.dialog.message.csd .dialog-action-area button { padding: 10px 14px; border-radius: 0; border-left-style: solid; border-right-style: none; border-bottom-style: none; }
+
+window.dialog.message.csd .dialog-action-area button:first-child { border-left-style: none; border-bottom-left-radius: 7px; }
+
+window.dialog.message.csd .dialog-action-area button:last-child { border-bottom-right-radius: 7px; }
+
+filechooser .dialog-action-box { border-top: 1px solid #1b1b1b; }
+
+filechooser #pathbarbox { border-bottom: 1px solid #353535; }
+
+filechooserbutton > button > box { border-spacing: 6px; }
+
+filechooserbutton:drop(active) { box-shadow: none; border-color: transparent; }

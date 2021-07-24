@@ -1,0 +1,20 @@
+/************** ComboBoxes * */
+dropdown > popover.menu.background > contents { padding: 0; }
+
+dropdown > button > box { border-spacing: 6px; }
+
+dropdown arrow, combobox arrow { -gtk-icon-source: -gtk-icontheme("pan-down-symbolic"); min-height: 16px; min-width: 16px; }
+
+dropdown > popover.menu > contents modelbutton, combobox > popover.menu > contents modelbutton { padding-left: 9px; padding-right: 9px; }
+
+dropdown:drop(active), combobox:drop(active) { box-shadow: none; }
+
+dropdown popover, combobox popover { margin-top: 6px; padding: 0; }
+
+dropdown popover listview, combobox popover listview { margin: 8px 0; }
+
+dropdown popover listview > row, combobox popover listview > row { padding: 8px; }
+
+dropdown popover listview > row:selected, combobox popover listview > row:selected { outline-color: rgba(255, 255, 255, 0.3); color: white; background-color: #202020; }
+
+dropdown popover .dropdown-searchbar, combobox popover .dropdown-searchbar { padding: 6px; border-bottom: 1px solid #1b1b1b; }

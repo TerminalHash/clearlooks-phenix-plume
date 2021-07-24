@@ -1,0 +1,61 @@
+/********* Menus * */
+menubar, .menubar { -GtkWidget-window-dragging: true; padding: 0px; box-shadow: inset 0 -1px rgba(0, 0, 0, 0.1); }
+
+menubar:backdrop, .menubar:backdrop { background-color: #353535; }
+
+menubar > menuitem, .menubar > menuitem { min-height: 16px; padding: 4px 8px; }
+
+menubar > menuitem menu:dir(rtl), menubar > menuitem menu:dir(ltr), .menubar > menuitem menu:dir(rtl), .menubar > menuitem menu:dir(ltr) { border-radius: 0; padding: 0; }
+
+menubar > menuitem:hover, .menubar > menuitem:hover { box-shadow: inset 0 -3px #15539e; color: #3584e4; }
+
+menubar > menuitem:disabled, .menubar > menuitem:disabled { color: #919190; box-shadow: none; }
+
+menubar .csd.popup decoration, .menubar .csd.popup decoration { border-radius: 0; }
+
+.background.popup { background-color: transparent; }
+
+menu, .menu, .context-menu { margin: 4px; padding: 4px 0px; background-color: #2f2f2f; border: 1px solid #1b1b1b; }
+
+.csd menu, .csd .menu, .csd .context-menu { border: none; border-radius: 5px; }
+
+menu:backdrop, .menu:backdrop, .context-menu:backdrop { background-color: #313131; }
+
+menu menuitem, .menu menuitem, .context-menu menuitem { min-height: 16px; min-width: 40px; padding: 4px 6px; text-shadow: none; }
+
+menu menuitem:hover, .menu menuitem:hover, .context-menu menuitem:hover { color: #ffffff; background-color: #15539e; }
+
+menu menuitem:disabled, .menu menuitem:disabled, .context-menu menuitem:disabled { color: #919190; }
+
+menu menuitem:disabled:backdrop, .menu menuitem:disabled:backdrop, .context-menu menuitem:disabled:backdrop { color: #5b5b5b; }
+
+menu menuitem:backdrop, menu menuitem:backdrop:hover, .menu menuitem:backdrop, .menu menuitem:backdrop:hover, .context-menu menuitem:backdrop, .context-menu menuitem:backdrop:hover { color: #919190; background-color: transparent; }
+
+menu menuitem arrow, .menu menuitem arrow, .context-menu menuitem arrow { min-height: 16px; min-width: 16px; }
+
+menu menuitem arrow:dir(ltr), .menu menuitem arrow:dir(ltr), .context-menu menuitem arrow:dir(ltr) { -gtk-icon-source: -gtk-icontheme("pan-end-symbolic"); margin-left: 10px; }
+
+menu menuitem arrow:dir(rtl), .menu menuitem arrow:dir(rtl), .context-menu menuitem arrow:dir(rtl) { -gtk-icon-source: -gtk-icontheme("pan-end-symbolic-rtl"); margin-right: 10px; }
+
+menu menuitem label:dir(rtl), menu menuitem label:dir(ltr), .menu menuitem label:dir(rtl), .menu menuitem label:dir(ltr), .context-menu menuitem label:dir(rtl), .context-menu menuitem label:dir(ltr) { color: inherit; }
+
+menu > arrow, .menu > arrow, .context-menu > arrow { border-color: transparent; background-color: transparent; background-image: none; box-shadow: inset 0 1px rgba(255, 255, 255, 0); text-shadow: none; -gtk-icon-shadow: none; min-height: 16px; min-width: 16px; padding: 4px; background-color: #2f2f2f; border-radius: 0; }
+
+menu > arrow.top, .menu > arrow.top, .context-menu > arrow.top { margin-top: -4px; border-bottom: 1px solid #404040; border-top-right-radius: 5px; border-top-left-radius: 5px; -gtk-icon-source: -gtk-icontheme("pan-up-symbolic"); }
+
+menu > arrow.bottom, .menu > arrow.bottom, .context-menu > arrow.bottom { margin-top: 8px; margin-bottom: -12px; border-top: 1px solid #404040; border-bottom-right-radius: 5px; border-bottom-left-radius: 5px; -gtk-icon-source: -gtk-icontheme("pan-down-symbolic"); }
+
+menu > arrow:hover, .menu > arrow:hover, .context-menu > arrow:hover { background-color: #404040; }
+
+menu > arrow:backdrop, .menu > arrow:backdrop, .context-menu > arrow:backdrop { background-color: #313131; }
+
+menu > arrow:disabled, .menu > arrow:disabled, .context-menu > arrow:disabled { color: transparent; background-color: transparent; border-color: transparent; }
+
+menuitem accelerator { color: alpha(currentColor,0.55); }
+
+menuitem check, menuitem radio { min-height: 16px; min-width: 16px; }
+
+menuitem check:dir(ltr), menuitem radio:dir(ltr) { margin-right: 7px; }
+
+menuitem check:dir(rtl), menuitem radio:dir(rtl) { margin-left: 7px; }
+

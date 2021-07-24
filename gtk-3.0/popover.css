@@ -1,0 +1,17 @@
+/*************** Popovers   * */
+popover.background { padding: 2px; background-color: #353535; box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3); }
+
+.csd popover.background, popover.background { border: 1px solid #1b1b1b; border-radius: 9px; }
+
+.csd popover.background { background-clip: padding-box; border-color: rgba(0, 0, 0, 0.75); }
+
+popover.background:backdrop { background-color: #353535; box-shadow: none; }
+
+popover.background > list, popover.background > .view, popover.background > iconview, popover.background > toolbar { border-style: none; background-color: transparent; }
+
+.csd popover.background.touch-selection, .csd popover.background.magnifier, popover.background.touch-selection, popover.background.magnifier { border: 1px solid rgba(255, 255, 255, 0.1); }
+
+popover.background separator { margin: 3px; }
+
+popover.background list separator { margin: 0px; }
+

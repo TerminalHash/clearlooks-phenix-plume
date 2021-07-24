@@ -1,0 +1,25 @@
+/*********** Sidebar * */
+.sidebar { border-style: none; background-color: #313131; }
+
+stacksidebar.sidebar:dir(ltr) list, stacksidebar.sidebar.left list, stacksidebar.sidebar.left:dir(rtl) list, .sidebar:not(separator):dir(ltr), .sidebar:not(separator).left { border-right: 1px solid #1b1b1b; border-left-style: none; }
+
+stacksidebar.sidebar:dir(rtl) list, stacksidebar.sidebar.right list, .sidebar:not(separator):dir(rtl), .sidebar:not(separator).right { border-left: 1px solid #1b1b1b; border-right-style: none; }
+
+.sidebar:backdrop { background-color: #323232; border-color: #202020; transition: 200ms ease-out; }
+
+.sidebar list { background-color: transparent; }
+
+paned .sidebar.left, paned .sidebar.right, paned .sidebar.left:dir(rtl), paned .sidebar:dir(rtl), paned .sidebar:dir(ltr), paned .sidebar { border-style: none; }
+
+stacksidebar row { padding: 10px 4px; }
+
+stacksidebar row > label { padding-left: 6px; padding-right: 6px; }
+
+stacksidebar row.needs-attention > label { background-size: 6px 6px, 0 0; }
+
+separator.sidebar { background-color: #1b1b1b; }
+
+separator.sidebar:backdrop { background-color: #202020; }
+
+separator.sidebar.selection-mode, .selection-mode separator.sidebar { background-color: #092444; }
+
